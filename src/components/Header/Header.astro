@@ -25,7 +25,7 @@ import './styles.scss';
 ---
 <div
 	x-data="header"
-	class="bg-black text-[#f5f5f5e6] sticky top-0 transition-all duration-300 z-50"
+	class="bg-black lg:text-[#f5f5f5e6] sticky top-0 transition-all duration-300 z-50"
 	:class="{'shadow-3xl': scrolling}"
 >
 	<header>
@@ -78,7 +78,7 @@ import './styles.scss';
 							data-title="Заказать звонок"
 							data-form_name="Заказ звонка. Шапка"
 						>
-							<Icon name="mdi:phone-incoming" class="text-3xl" />
+							<Icon name="mdi:phone-incoming" class="text-3xl text-[#f5f5f5e6]" />
 						</a>
 						{Object.keys(socials.header).length ? (
 							<SocialList data={socials.header} />
@@ -91,7 +91,7 @@ import './styles.scss';
 						aria-label="Mobile menu"
 						@click.prevent="open = !open"
 					>
-						<Icon name="mdi:hamburger-menu" class="text-2xl" />
+						<Icon name="mdi:hamburger-menu" class="text-2xl text-[#f5f5f5e6]" />
 					</button>
 				</div>
 			</div>
