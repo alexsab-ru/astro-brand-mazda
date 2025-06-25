@@ -54,6 +54,6 @@ export default defineConfig({
 			},
 		},
 	},
-	site: 'https://mazda-armada-avto.ru',
+	site: 'https://site.com',
 	base: "/"
 });
