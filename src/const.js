@@ -37,10 +37,11 @@ export const LINKS_MENU = [
 		],
 	},
 	{
-		url: 'for-owners',
+		url: 'javascript:void(0)',
 		name: 'Владельцам',
 		children: [
 			{url: 'special-offers/', name: 'Спецпредложения'},
+			{url: 'maintainance/', name: 'Техническое обслуживание'},
 			{url: 'service-request/', name: 'Запись на сервис'},
 		],
 	},
